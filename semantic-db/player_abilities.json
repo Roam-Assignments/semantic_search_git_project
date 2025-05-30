@@ -1,0 +1,32 @@
+[
+  {
+    "BID": "BA001",
+    "Name": "Double Jump",
+    "Description": "Allows the player to jump a second time in mid-air.",
+    "Variables": {
+      "jumpForce": 12.0,
+      "maxJumps": 2,
+      "staminaCost": 10
+    }
+  },
+  {
+    "BID": "BA002",
+    "Name": "Dash",
+    "Description": "Quickly moves the player in a direction.",
+    "Variables": {
+      "dashDistance": 8.0,
+      "cooldown": 2.0,
+      "invincibilityFrames": 0.5
+    }
+  },
+  {
+    "BID": "BA003",
+    "Name": "Wall Climb",
+    "Description": "Allows the player to climb walls.",
+    "Variables": {
+      "climbSpeed": 5.0,
+      "climbDuration": 3.0,
+      "energyCost": 15
+    }
+  }
+]
