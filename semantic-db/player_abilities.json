@@ -1,32 +1,52 @@
 [
   {
-    "BID": "BA001",
-    "Name": "Double Jump",
-    "Description": "Allows the player to jump a second time in mid-air.",
+    "BID": "BA101",
+    "Name": "Jetpack Boost",
+    "Description": "Launches the player upward with a burst of jet propulsion.",
     "Variables": {
-      "jumpForce": 12.0,
-      "maxJumps": 2,
-      "staminaCost": 10
+      "thrustPower": 25.0,
+      "fuelConsumption": 0.8,
+      "cooldown": 5.0
     }
   },
   {
-    "BID": "BA002",
-    "Name": "Dash",
-    "Description": "Quickly moves the player in a direction.",
+    "BID": "BA102",
+    "Name": "Time Freeze",
+    "Description": "Freezes time for all enemies while the player can move freely.",
     "Variables": {
-      "dashDistance": 8.0,
-      "cooldown": 2.0,
-      "invincibilityFrames": 0.5
+      "duration": 3.5,
+      "cooldown": 12.0,
+      "visualEffect": "blue_glow"
     }
   },
   {
-    "BID": "BA003",
-    "Name": "Wall Climb",
-    "Description": "Allows the player to climb walls.",
+    "BID": "BA103",
+    "Name": "Shadow Step",
+    "Description": "Quickly teleport behind the nearest enemy in sight.",
     "Variables": {
-      "climbSpeed": 5.0,
-      "climbDuration": 3.0,
+      "range": 10.0,
+      "cooldown": 4.5,
       "energyCost": 15
+    }
+  },
+  {
+    "BID": "BA104",
+    "Name": "Ground Slam",
+    "Description": "Slam the ground to deal area damage and knockback.",
+    "Variables": {
+      "damage": 40,
+      "radius": 6.0,
+      "knockbackForce": 18.0
+    }
+  },
+  {
+    "BID": "BA105",
+    "Name": "Hologram Decoy",
+    "Description": "Deploys a holographic clone to distract enemies.",
+    "Variables": {
+      "duration": 8,
+      "cooldown": 10,
+      "cloneHealth": 50
     }
   }
 ]
